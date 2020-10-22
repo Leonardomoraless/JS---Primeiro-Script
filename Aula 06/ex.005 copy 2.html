@@ -23,12 +23,15 @@
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
         var divi = window.document.getElementById('msg')
-        corpo.style.background = 'blue'
+        corpo.style.background = 'pink'
         p1.style.color = 'black'
-        divi.style.background = 'red'
-            //divi.innerText = "Estou aguardando..." - Aqui alterou o ID por variável
-            //window.document.getElementById('msg').innerHTML = 'Estou aguardando...' - aqui alterou o ID pelo comando inteiro
+            //divi.style.background = 'red' /
+            /*
+            divi.innerText = "Estou aguardando..." - Aqui alterou o ID por variável
+            //window.document.getElementById('msg').innerHTML = 'Estou aguardando...' - aqui alterou o ID pelo comando inteiro*/
         window.document.write('Está ecrito assim: ' + p1.innerText)
+        var divi = window.document.querySelector('div#msg')
+        divi.style.background = 'purple'
     </Script>
 </body>
 
